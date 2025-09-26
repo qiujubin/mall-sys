@@ -1,9 +1,0 @@
-package com.gec.dao;
-
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.gec.domain.entity.Brand;
-import org.apache.ibatis.annotations.Mapper;
-
-@Mapper
-public interface BrandMapper extends BaseMapper<Brand> {
-}
